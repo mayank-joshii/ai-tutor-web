@@ -1,0 +1,87 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+#input-form, #output, #progress {
+    margin-bottom: 30px;
+}
+
+h2, h3 {
+    color: #444;
+}
+
+input[type="text"], select {
+    padding: 10px;
+    width: 100%;
+    margin: 8px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#quiz p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+#retry-btn {
+    margin-top: 20px;
+    background-color: #28a745;
+}
+
+#retry-btn:hover {
+    background-color: #218838;
+}
+
+#progress-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#progress-list li {
+    background-color: #f1f1f1;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 4px;
+}
