@@ -80,8 +80,8 @@
         localStorage.setItem("access_token", data.access);
         localStorage.setItem("refresh_token", data.refresh);
 
-        // Redirect to dashboard or next step
-        window.location.href = "/dashboard/";
+        // Redirect to AI Tutor
+        window.location.href = "/ai-tutor/";
       } else {
         alert(data.error || "Login failed.");
       }
